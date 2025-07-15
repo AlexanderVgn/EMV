@@ -1329,7 +1329,7 @@ bool OfflineDataAuthentication::isValidCertificate (const byte *rid,
 	memcpy (cur_cert + 6, serial_num, 3);
 
 	// ***************
-	// The following code is needed only for debug purpoces
+       // The following code is needed only for debug purposes
 	/*opEvent.resetEvent (true);
 	Cnfg->addOperationEvent (&opEvent);
 	res = Cnfg->setValueByteString(CNFG_TERMINAL, 
